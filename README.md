@@ -121,7 +121,7 @@ Connection: close
 ## **3. Testes de API**
 
 - No repositório deste projeto, há um arquivo chamado [routes.http](./routes.http)
-- Para executá-lo da maneira mais simples possível, utilize a extensão REST Cliente do Visual Studio Code.
+- Para executá-lo da maneira mais simples possível, utilize a extensão REST Client do Visual Studio Code.
 - Ao acessar o arquivo mencionado, há os *Requests* para cada um dos endpoints mencionados
 
 ![Print do arquivo routes.http e funcionamento da extensão REST Client do VS Code](./public/image.png)
