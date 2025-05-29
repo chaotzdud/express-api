@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestor de Atividades</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/register-page.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>Cadastro Express JS</h2>
+    </div>
+
+    <div class="tabs">
+      <div class="tab">Cadastrar usuário</div>
+      <div class="tab">Lista de usuários</div>
+    </div>
+
+    <div class="content">
+      <form class="form" method="post" action="">
+        <label for="title">Título</label>
+        <input type="text" id="title" name="title">
+
+        <label for="age">Idade</label>
+        <input type="number" id="age" name="age">
+
+        <button type="submit">Criar</button>
+      </form>
+
+      <div class="list">
+        <div class="activity">
+          <div class="activity-info tooltip">
+            <span>Nome e idade</span>
+          </div>
+          <div class="buttons-activity">
+            <button class="delete">&#x2716;</button>
+            <button class="edit">&#x270E;</button>
+          </div>
+        </div>
+
+        <div class="activity">
+          <div class="activity-info tooltip">
+            <span>Nome e idade</span>
+          </div>
+          <div class="buttons-activity">
+            <button class="delete">&#x2716;</button>
+            <button class="edit">&#x270E;</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
